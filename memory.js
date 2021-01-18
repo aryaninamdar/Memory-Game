@@ -64,8 +64,6 @@ var cardsClicked = []
 var cardsClickedId = []
 var cardsMatched = []
 
-// https://www.clipartmax.com/png/small/131-1313918_tick-mark-check-yes-correct-success-circle-icon-ok-icon.png
-
 //creating game board
   function createBoard() {
     for (let i = 0; i < cardArray.length; i++) {

@@ -1,0 +1,74 @@
+@import url('https://fonts.googleapis.com/css2?family=Asap:wght@600&display=swap');
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  background-color: #EDF5E1;
+}
+
+header {
+  background-color: #5CDB95;
+  padding: 25px;
+}
+
+header > h1 {
+  color: #25272E;
+  text-align: center;
+  font-family: Asap, sans-serif;
+  font-size: 45px;
+  font-weight: bold;
+}
+
+.scoreboard {
+  margin-top: 100px;
+  text-align: center;
+  font-family: Asap, sans-serif;
+  font-size: 40px;
+  margin-bottom: 10px;
+}
+
+hr {
+  border: 3px solid #05386B;
+  border-radius: 10px;
+  width: 1000px;
+  margin: auto;
+}
+
+#timer {
+  font-size: 40px;
+  font-family: Asap, sans-serif;
+  text-align: center;
+  margin: 10px 0px;
+}
+
+.game-container {
+  display: grid;
+  grid-template-columns: repeat(4, auto);
+  justify-content: center;
+  margin: 30px auto;
+}
+
+.restart {
+  text-align: center;
+  margin: 35px auto;
+}
+
+#restart-message {
+  font-size: 40px;
+  font-family: Asap, sans-serif;
+  color: #EDF5E1;
+  padding: 10px 20px;
+  background-color: #05386B;
+  outline: none;
+  border-radius: 30px;
+}
+
+#restart-message:hover {
+  cursor: pointer;
+  background-color: #042445;
+  transition: all 0.3s ease;
+}
